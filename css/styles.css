@@ -1,0 +1,70 @@
+/* REUSABLE CODE */
+
+/* border-bottom */
+
+#underscore::after {
+  content: '';
+  width: 100px;
+  height: 5px;
+  display: block;
+  border-radius: 5px;
+  background: red;
+  bottom: 0;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Carousel */
+
+.carousel-item {
+  height: 600px;
+}
+
+.carousel-image-1 {
+  background: url('../img/img1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-2 {
+  background: url('../img/img2.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.carousel-image-3 {
+  background: url('../img/img3.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: #000;
+  opacity: 0.65;
+}
+
+/* Train Section */
+
+/* About Me Section */
+
+.about-me,
+.contact-me {
+  background-color: #f4f4f4;
+}
+
+.jared-img {
+  height: 50%;
+  border-radius: 50%;
+}
+
+/* Contact me section */
+
+.reach-me-img {
+  height: 40%;
+}
+
+/* End Contact Me Section */
