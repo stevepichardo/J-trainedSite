@@ -63,8 +63,14 @@
 
 /* Contact me section */
 
-.reach-me-img {
-  height: 40%;
+.contact-info {
+  margin-top: 40px;
+}
+
+.right-box {
+  background-image: url(../img/jordan-whitfield-112404-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
 }
 
 /* End Contact Me Section */
